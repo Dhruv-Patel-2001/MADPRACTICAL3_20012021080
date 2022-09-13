@@ -1,7 +1,7 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MAD_Mp3Player_Practical" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.MADPRACTICAL_20012021080" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
