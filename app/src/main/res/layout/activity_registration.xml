@@ -160,9 +160,9 @@
                     <Button
                         android:layout_gravity="center"
                         android:layout_width="200dp"
-                        android:layout_height="65dp"
+                        android:layout_height="60dp"
                         android:text="Register"
-                        android:textSize="25dp"/>
+                        android:textSize="21dp"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
