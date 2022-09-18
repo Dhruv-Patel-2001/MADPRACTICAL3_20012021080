@@ -1,5 +1,6 @@
 package com.example.madpractical_20012021080
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.view.WindowCompat
@@ -17,5 +18,18 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
+
+        binding.BottomNavigationView.id = R.id.bottom_nav_reg
+        binding.BottomNavigationView.setOnItemSelectedListener { it2 ->
+            when(it2.itemId) {
+                R.id.bottom_nav_reg -> {
+                    Intent(this, RegistrationActivity::class.java).also { startActivity(it) }
+                }
+                R.id.bottom_nav_login -> {
+                    Intent(this, LoginActivity::class.java).also { startActivity(it) }
+                }
+            }
+            return@setOnItemSelectedListener true
+        }
     }
 }
